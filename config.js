@@ -15,9 +15,9 @@ module.exports = {
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
     USERNAME: process.env.USERNAME || '',
     SESSION: process.env.SESSION || '',
-    RG: process.env.RG || '919074309534-1632403322@g.us',
+    RG: process.env.RG || '94768397085-1632403322@g.us',
     PASSWORD: process.env.PASSWORD || '',
-    BOT_INFO: process.env.BOT_INFO || 'Raganork;Souravkl11;916282344739;https://i.imgur.com/st4R2dq.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
+    BOT_INFO: process.env.BOT_INFO || 'Raganork;Souravkl11;94768397085;https://i.imgur.com/st4R2dq.jpeg;https://chat.whatsapp.com/GRzfk5m7ldFEbORdKRMdX5'
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,212',
     CHATBOT: process.env.CHATBOT || 'off',
@@ -36,8 +36,8 @@ module.exports = {
     },
     DATABASE_URL: DATABASE_URL,
     DATABASE: DATABASE_URL === './bot.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
-    SUDO: process.env.SUDO || '916282344739,0',
-    LANGUAGE: process.env.LANGUAGE || 'english',
+    SUDO: process.env.SUDO || '94768397085,0',
+    LANGUAGE: process.env.LANGUAGE || 'sinhala',
     DEBUG: DEBUG,
     ACR_A: "4b64f4e5401d1380e50b30d526def287",
     ACR_S: "uSVrKResE7wF4d6A1dtqvPWTTy3rBp3YjldsJSCh"
